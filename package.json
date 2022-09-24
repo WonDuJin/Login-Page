@@ -1,0 +1,19 @@
+{
+  "name": "login-page",
+  "version": "1.0.0",
+  "description": "팀 프로젝트를 위한 로그인페이지 만들기 연습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WonDuJin/Login-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WonDuJin/Login-Page/issues"
+  },
+  "homepage": "https://github.com/WonDuJin/Login-Page#readme"
+}
