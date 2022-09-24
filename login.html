@@ -5,17 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
-    <script src="./index.js" type="module"></script>
+    <link rel="stylesheet" href="./prac/index.css" />
+    <script src="./login.js"></script>
   </head>
   <body>
     <form id="root">
-      <input
-        required
-        maxlength="20"
-        type="text"
-        placeholder="아이디를 입력해주세요." />
-      <input type="submit" value="로그인" />
+      <p>아이디 : <input id="id" type="text" /></p>
+      <p>패스워드 : <input id="pw" type="text" /></p>
+      <a href="./sign.html"><input type="button" value="회원가입" /></a>
+      <input type="submit" value="로그인" onclick="login()" />
     </form>
     <h1 id="greeting" class="hidden"></h1>
   </body>
