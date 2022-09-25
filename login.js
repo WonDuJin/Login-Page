@@ -1,8 +1,4 @@
-const loginForm = document.querySelector("#root");
-const HIDDEN_CLASSNAME = "hidden";
-function login(event) {
-  event.preventDefault();
-  loginForm.classList.add(HIDDEN_CLASSNAME);
+export function login() {
   const id = document.querySelector("#id");
   const pw = document.querySelector("#pw");
   const username = id.value;
