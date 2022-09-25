@@ -1,4 +1,4 @@
-export function login() {
+function login() {
   const id = document.querySelector("#id");
   const pw = document.querySelector("#pw");
   const username = id.value;
