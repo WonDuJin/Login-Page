@@ -5,8 +5,7 @@ function login() {
   if (id.value === "" || pw.value === "") {
     alert("아이디 혹은 비밀번호를 입력해주세요.");
   } else {
-    greeting.innerText = `어서오너라 ${username}`;
-    greeting.classList.remove(HIDDEN_CLASSNAME);
+    alert("로그인 성공!");
   }
 }
 

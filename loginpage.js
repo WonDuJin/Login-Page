@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 
 const loginPage = http.createServer(function (request, response) {
-  const url = request.url;
+  let url = request.url;
   if (request.url == "/") {
     url = "/login.html";
   }
